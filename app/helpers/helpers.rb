@@ -2,8 +2,8 @@
 
 class Helpers
   
-  def current_user(session_hash)
-    current_user =User.find(session_hash[:user_id])
+  def current_user(session)
+    current_user =User.find(session[:user_id])
     current_user
   end
 
