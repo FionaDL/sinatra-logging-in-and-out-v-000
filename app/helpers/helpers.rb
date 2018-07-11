@@ -1,3 +1,5 @@
+require 'pry'
+
 class Helpers
   def current_user(session_hash)
     binding.pry
